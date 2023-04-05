@@ -20,9 +20,16 @@
   display: flex;
   gap: 2rem;
 }
+.f-icons > li {
+  opacity: 1;
+  list-style: none;
+}
+.f-icons > li:hover {
+  opacity: 0.5;
+}
 
-@media screen and (max-width: 480px){
-  .f-content{
-    transform: scale(.5);
+@media screen and (max-width: 480px) {
+  .f-content {
+    transform: scale(0.5);
   }
 }

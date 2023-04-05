@@ -1,23 +1,23 @@
-import React, { useContext } from "react";
-import "./Services.css";
-import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
-import { themeContext } from "../../Context";
-import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import React, { useContext } from "react"
+import "./Services.css"
+import Card from "../Card/Card"
+import HeartEmoji from "../../img/heartemoji.png"
+import Glasses from "../../img/glasses.png"
+import Humble from "../../img/humble.png"
+import { themeContext } from "../../Context"
+import { motion } from "framer-motion"
+import Resume from "./resume.pdf"
 
 const Services = () => {
   // context
-  const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
+  const theme = useContext(themeContext)
+  const darkMode = theme.state.darkMode
 
   // transition
   const transition = {
     duration: 1,
     type: "spring",
-  };
+  }
 
   return (
     <div className="services" id="services">
@@ -64,7 +64,7 @@ const Services = () => {
         </motion.div>
         {/* 3rd */}
         <motion.div
-          initial={{ top: "19rem", left: "25rem" }}
+          initial={{ top: "25rem", left: "25rem" }}
           whileInView={{ left: "12rem" }}
           transition={transition}
         >
@@ -83,7 +83,7 @@ const Services = () => {
         ></div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services
