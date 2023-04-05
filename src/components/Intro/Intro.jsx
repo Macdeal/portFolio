@@ -39,9 +39,15 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/Macdeal">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/mwlite/in/musthaq-ahmad">
+            <img src={LinkedIn} alt="" />
+          </a>
+          <a href="https://www.instagram.com/musthaq_cm/">
+            <img src={Instagram} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}

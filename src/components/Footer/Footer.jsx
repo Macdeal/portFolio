@@ -13,13 +13,20 @@ const Footer = () => {
         <span>ahmadmustha55@gmail.com</span>
         <div className="f-icons">
           <li>
-            <Insta color="white" size={"3rem"} />
+            <a href="https://www.instagram.com/musthaq_cm/">
+              <Insta color="white" size={"3rem"} />
+            </a>
           </li>
           <li>
-            <Facebook color="white" size={"3rem"} />
+            <a href="https://www.instagram.com/musthaq_cm/">
+              <Facebook color="white" size={"3rem"} />
+            </a>
+            a
           </li>
           <li>
-            <Gitub color="white" size={"3rem"} />
+            <a href="https://github.com/Macdeal">
+              <Gitub color="white" size={"3rem"} />
+            </a>
           </li>
         </div>
       </div>

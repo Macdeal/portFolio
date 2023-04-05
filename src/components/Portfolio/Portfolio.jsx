@@ -2,10 +2,9 @@ import React, { useContext } from "react"
 import "./Portfolio.css"
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
-import Sidebar from "../../img/sidebar.png"
-import Ecommerce from "../../img/ecommerce.png"
-import HOC from "../../img/hoc.png"
-import MusicApp from "../../img/musicapp.png"
+import Sidebar from "../../img/git.png"
+import Rotating from "../../img/rotating.png"
+import waterDrop from "../../img/waterDop.png"
 import { themeContext } from "../../Context"
 const Portfolio = () => {
   const theme = useContext(themeContext)
@@ -27,13 +26,13 @@ const Portfolio = () => {
           <img src={Sidebar} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={waterDrop} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <img src={Rotating} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={Sidebar} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>
