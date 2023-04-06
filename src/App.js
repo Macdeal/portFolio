@@ -99,6 +99,7 @@ function App() {
               </li>
             </ul>
           </div>
+          <p>All rights reserved to ©Musthaq Ahamd</p>
         </div>
       )}
     </div>
