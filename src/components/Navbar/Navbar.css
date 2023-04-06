@@ -10,7 +10,12 @@
   align-items: center;
   justify-content: left;
   display: flex;
-  gap: 2rem;
+  gap: 6px;
+  text-align: center;
+}
+
+.n-left > :nth-child(1) {
+  display: none;
 }
 
 .n-name {
@@ -46,5 +51,14 @@
 @media screen and (max-width: 480px) {
   .n-list {
     display: none;
+  }
+
+  .n-left > :nth-child(1) {
+    display: block;
+    border: none;
+    background: none;
+    margin-left: -2px;
+    color: var(--orange);
+    border-radius: 10px;
   }
 }

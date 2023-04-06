@@ -1,12 +1,18 @@
-import React from "react"
+import React, { useState } from "react"
+import Burger from "@iconscout/react-unicons/icons/uil-bars"
+import { Link } from "react-scroll"
+
 import Toggle from "../Toggle/Toggle"
 import "./Navbar.css"
-import { Link } from "react-scroll"
-const navbar = () => {
+
+const navbar = ({ onClick }) => {
   return (
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
+        <button onClick={onClick} type="button">
+          <Burger />
+        </button>
         <div className="n-name">Musthaq</div>
         <Toggle />
       </div>
